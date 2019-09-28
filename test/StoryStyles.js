@@ -21,4 +21,7 @@ export default StyleSheet.create({
     maxHeight: Dimensions.get('window').height - 200,
     width: 320,
   },
+  test: {
+    paddingTop: 20,
+  },
 });
