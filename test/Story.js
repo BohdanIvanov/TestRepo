@@ -4,9 +4,7 @@ import { WebView } from 'react-native-webview';
 import styles from './StoryStyles';
 
 class Story extends PureComponent {
-  renderActivityIndicatorLoadingView = () => (
-    <ActivityIndicator color="#009688" size="large" style={styles.ActivityIndicatorStyle} />
-  );
+  renderActivityIndicatorLoadingView = () => <ActivityIndicator color="#009688" size="large" />;
   render() {
     const { story } = this.props.navigation.state.params;
     return (
